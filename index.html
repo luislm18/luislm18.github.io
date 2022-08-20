@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luis Alberto Lopez Martinez">
+    <title>Login - ZAPATERIA BICENTENARIO</title>
+    <script src="DiagPart1.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+        h1,h2,h3,h4,h5,input,p{
+            font-family: "Raleway", sans-serif;
+            text-align: center;
+        }
+        body{
+            background-image: url("imagenes/fondo.jpg");
+            background-color: #ffffff;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="w3-col l8 s12; container" style="padding: 40px;">
+        <div class="w3-card-4 w3-margin w3-white">
+          <div class="w3-container">
+            <h3 ><b>LOGIN</b></h3>
+            <h5>Zapatería Bicentenario</h5><br><br>
+      
+          <div class="w3-container">
+            <div class="container">
+                <input type="text" id="user" placeholder="Usuario"><br>
+            </div>
+            <div class="container">
+                <input type="password" id="passw" placeholder="Contraseña"><br><br>
+            </div>
+            
+            <div class="w3-row">
+              <div class="w3-col m8 s12" style="float:left"></div>
+                <p><input type="button" class="w3-button w3-padding-large w3-white w3-border" value="Enviar" id="enviar" onclick="login()"><b></b></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+        <p>Dirección de correo electrónico: <a href="webmaster@zapbicen.com.mx" target="_blank">webmaster@zapbicen.com.mx</a></p>
+      </footer>
+</body>
+</html>
